@@ -58,12 +58,19 @@ Two approaches compared:
 
 ## Project Structure
 ode_pinn_comp/
+
 ├── core/
+
 │   ├── problems.py
+
 │   ├── numerical.py
+
 │   └── pinn.py
+
 ├── compare.py
+
 ├── app.py
+
 └── README.md
 
 ---
@@ -72,11 +79,17 @@ ode_pinn_comp/
 
 Install dependencies:
 pip install torch scipy numpy matplotlib
+
 Run a specific problem:
+
 python app.py decay
+
 python app.py sho
+
 python app.py vdp
+
 python app.py heat
+
 
 ---
 
